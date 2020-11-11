@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-11-11T12:40:03.437Z" agent="5.0 (Windows)" etag="FROXRTOUIzDF_7yO-r73" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-11T12:53:00.528Z" agent="5.0 (Windows)" etag="9zHan4tuyn8j-ZwWadms" version="13.9.6" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1564" dy="1977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="Orgchart" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;swimlaneFillColor=none;" parent="1" vertex="1">
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="" style="swimlane;html=1;startSize=0;horizontal=1;containerType=tree;glass=0;swimlaneFillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="-280" width="790" height="630" as="geometry" />
         </mxCell>
         <UserObject label="Superviseur des données médicales" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" id="dNxyNK7c78bLwvsdeMH5-12">
@@ -12,8 +12,11 @@
             <mxGeometry x="250" y="340" width="180" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-15" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-15" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.494;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="dNxyNK7c78bLwvsdeMH5-11" target="dNxyNK7c78bLwvsdeMH5-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="339" y="479" as="sourcePoint" />
+            <mxPoint x="339" y="419" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <UserObject label="" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" link="https://www.draw.io" id="dNxyNK7c78bLwvsdeMH5-16">
           <mxCell style="" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
@@ -25,17 +28,7 @@
         </mxCell>
         <UserObject label="Responsable d&#39;activités d&#39;Epidemiologie" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" id="yGAbrnF77CtUYg8j1XF4-2">
           <mxCell style="whiteSpace=wrap;fontSize=17;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-            <mxGeometry x="250" y="210" width="180" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="yGAbrnF77CtUYg8j1XF4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" target="yGAbrnF77CtUYg8j1XF4-6" source="yGAbrnF77CtUYg8j1XF4-2" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="240" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="%name%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%position%&lt;/i&gt;&lt;br&gt;&lt;a href=&quot;mailto:%email%&quot;&gt;Email&lt;/a&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="yGAbrnF77CtUYg8j1XF4-6">
-          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-            <mxGeometry x="250" y="80" width="180" height="70" as="geometry" />
+            <mxGeometry x="250" y="190" width="180" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" link="https://www.draw.io" id="yGAbrnF77CtUYg8j1XF4-7">
@@ -87,6 +80,16 @@
         <UserObject label="Responsable d&#39;activités" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" id="yGAbrnF77CtUYg8j1XF4-28">
           <mxCell style="fontSize=17;whiteSpace=wrap;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
             <mxGeometry x="530" y="350" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yGAbrnF77CtUYg8j1XF4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" target="yGAbrnF77CtUYg8j1XF4-30" source="yGAbrnF77CtUYg8j1XF4-2" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Référent médical projet (PMR)" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" id="yGAbrnF77CtUYg8j1XF4-30">
+          <mxCell style="whiteSpace=wrap;fontSize=17;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="250" y="40" width="180" height="70" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
